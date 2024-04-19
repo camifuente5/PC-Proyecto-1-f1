@@ -30,13 +30,16 @@ while seleccion == 1:
                 agd = int(input("Ingrese la cantidad de personas a agregar: "))
                 totald = (agd) + (jordiurna)
                 print ("La cantidad de trabajadores para esta jornada es de: ", totald)
+                obrad= 14*totald
             if segseleccion == 2:
                 agv = int(input("Ingrese la cantidad de personas a agregar: "))
                 totalv = (agv) + (jorvespertina)
+                obrav= 14.50*totalv
                 print ("La cantidad de trabajadores para esta jornada es de: ", totalv)
             if segseleccion == 3:
                 agn= int(input("Ingrese la cantidad de personas a agregar: "))
                 totaln = (agn) + (jornocturna)
+                obran= 15.50*totaln
                 print ("La cantidad de trabajadores para esta jornada es de: ", totaln)
             break
         #EXTRAER PERSONAL

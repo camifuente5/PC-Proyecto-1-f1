@@ -2,7 +2,7 @@
 #submenu opición gestionar inventario
 print ("Opciones:")
 print ("1. Agregar combustible.")
-print ("2. No deseo agregar combustible")
+print ("2. No deseoagregar combustible")
 #agregar combustible 
 opcion = int(input ("Ingrese la opción deseada: "))
 if opcion == 1: 
