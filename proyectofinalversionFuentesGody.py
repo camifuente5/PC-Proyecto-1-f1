@@ -228,7 +228,7 @@ while True :
                     agn= int(input("Ingrese la cantidad de personas a agregar: "))
                     totaln = (agn) + (jornocturna)
                     print ("La cantidad de trabajadores para esta jornada es de: ", totaln)
-                    break
+                break
 
             #EXTRAER PERSONAL
             while seleccion == 2:
